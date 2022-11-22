@@ -35,78 +35,29 @@
 	    	<script src="assets/js/selectivizr.js"></script>
 	    <![endif]-->
 	</head>
-    <body>
-		<div id="drawer-right">
-			<div class="cross text-right">
-				<a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
-			</div>
-			<h2>Navigate</h2>
-			<nav>
-				<ul class="nav nav-pills nav-stacked">
-					<li>
-						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
-					</li>
-					<li>
-						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
-					</li>
-					<li>
-						<a href="#services"><i class="fa fa-tasks"></i> Services</a>
-					</li>
-					<li>
-						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
-					</li>
-					<li>
-						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
-					</li>
-					<li>
-						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
-					</li>
-					<li>
-						<a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="social">
-				<h2>Stay Connected</h2>
-				<ul>
-					<li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
-					<li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
-					<li><a href=""><i class="fa fa-tumblr-square fa-3x"></i></a></li>
-					<li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
-				</ul>
-			</div>
-		</div><!-- #drawer-right -->
-
 
 		<body>
 		<div id="drawer-right">
 			<div class="cross text-right">
-				<a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
+				<a class="toggleDrawer" ><i class="fa fa-times-circle fa-2x"></i></a>
 			</div>
 			<h2>Navigate</h2>
 			<nav>
 				<ul class="nav nav-pills nav-stacked">
 					<li>
-						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
+						<a href="{{  URL :: to ('/') }}"><i class="fa fa-home"></i> Home</a>
 					</li>
 					<li>
-						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
+						<a href="{{  URL :: to ('/') }}"><i class="fa fa-bookmark"></i> Companies</a>
 					</li>
 					<li>
-						<a href="#services"><i class="fa fa-tasks"></i> Services</a>
+						<a href="#services"><i class="fa fa-tasks"></i> Departments</a>
 					</li>
 					<li>
-						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
+						<a href="{{  URL :: to ('/employee') }}"><i class="fa fa-user"></i> Employees</a>
 					</li>
-					<li>
-						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
-					</li>
-					<li>
-						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
-					</li>
-					<li>
-						<a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
-					</li>
+				
+					
 				</ul>
 			</nav>
 			<div class="social">

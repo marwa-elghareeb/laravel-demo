@@ -13,6 +13,13 @@ class IndexController extends Controller
 
 
 
+    public function employee()
+    {
+        return view('employee');
+    }
+
+
+
 
     
 

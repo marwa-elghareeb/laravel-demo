@@ -20,3 +20,6 @@ Route::get('/', function () {
 
 
 Route::get('/department' , [IndexController::class , 'department']);
+
+
+Route::get('/employee' , [IndexController::class , 'employee']);
